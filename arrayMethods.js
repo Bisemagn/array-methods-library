@@ -3,7 +3,7 @@ function forEach(array, cb) {
     cb(array[i], i, array)
   }
 }
-
+//for testing
 function map(array, cb) {
   const newArray = []
   for (let i = 0; i < array.length; i++) {
@@ -36,7 +36,7 @@ function reduce(array, cb, initialValue) {
 
   return currentValue
 }
-
+ddbskmdsbfvdsjk,vbjjdkf,vbdkbx,jv
 function some(array, cb) {
   for (let i = 0; i < array.length; i++) {
     if (cb(array[i], i, array)) return true
